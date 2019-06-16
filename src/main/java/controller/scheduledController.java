@@ -16,6 +16,8 @@ public class scheduledController {
     @Scheduled(fixedDelay = 5000)
     public String printString(){
         System.err.println("hello world");
+        System.err.println("hello world");
+        System.err.println("hello world");
         return "wwww";
     }
 }
